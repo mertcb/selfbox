@@ -1,0 +1,23 @@
+{
+  "name": "selfbox-server",
+  "version": "1.0.0",
+  "description": "Selfbox is a OpenSource notes & idea book for yourself",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/muraterzioglu/selfbox/tree/main/server"
+  },
+  "author": "Murat Terzioğlu",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.11.12"
+  }
+}
