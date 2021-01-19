@@ -1,14 +1,10 @@
 {
-  "name": "selfbox-client",
+  "name": "svelte-app",
   "version": "1.0.0",
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -c -w",
-    "start": "sirv public"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/muraterzioglu/selfbox/tree/main/client"
+    "start": "sirv public -s"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^17.0.0",
@@ -21,10 +17,8 @@
     "svelte": "^3.0.0"
   },
   "dependencies": {
-    "express": "^4.17.1",
-    "sirv-cli": "^1.0.10",
-    "svelte-routing": "1.5.0"
-  },
-  "author": "Murat Terzioğlu",
-  "license": "MIT"
+    "http": "0.0.1-security",
+    "sirv-cli": "^1.0.0",
+    "svelte-routing": "^1.5.0"
+  }
 }

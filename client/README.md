@@ -1,12 +1,13 @@
-# selfbox client w/svelte
+# Selfbox Client-side with svelte
 
-This client side project made with [Svelte](https://svelte.dev) apps.
+This is a project made with [Svelte](https://svelte.dev).
 
 ## Get started
 
 Install the dependencies...
 
 ```bash
+cd client
 npm install
 ```
 
@@ -30,9 +31,4 @@ To create an optimised version of the app:
 npm run build
 ```
 
-You can run the newly built app with
-```bash
-npm run start
-```
-
-This uses [sirv](https://github.com/lukeed/sirv), which is included in your package.json's `dependencies` so that the app will work when you deploy to platforms like [Heroku](https://heroku.com).
+You can run the newly built app with `npm run start`. This uses [sirv](https://github.com/lukeed/sirv), which is included in your package.json's `dependencies` so that the app will work when you deploy to platforms like [Heroku](https://heroku.com).
